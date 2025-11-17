@@ -11,3 +11,12 @@ TORCH_DEVICE=cuda marker book1/ \
 
 
 llm need we provide api.
+
+
+TORCH_DEVICE=cuda marker FontDiffuser/ \
+  --output_dir ./FontDiffuser/out \
+  --force_ocr \
+  --redo_inline_math \
+  --strip_existing_ocr \
+  --paginate_output
+
