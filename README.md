@@ -20,3 +20,10 @@ TORCH_DEVICE=cuda marker FontDiffuser/ \
   --strip_existing_ocr \
   --paginate_output
 
+
+CUDA_VISIBLE_DEVICES=1 TORCH_DEVICE=cuda marker 反抗者\            
+                              --output_dir ./反抗者/out \
+                                  --force_ocr \
+                                  --redo_inline_math \
+                                  --strip_existing_ocr \
+                                  --paginate_output
