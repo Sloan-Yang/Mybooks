@@ -27,3 +27,19 @@ CUDA_VISIBLE_DEVICES=1 TORCH_DEVICE=cuda marker 反抗者\
                                   --redo_inline_math \
                                   --strip_existing_ocr \
                                   --paginate_output
+
+CUDA_VISIBLE_DEVICES=1 TORCH_DEVICE=cuda marker "经营未来" \
+  --output_dir "./经营未来/out" \
+  --force_ocr \
+  --redo_inline_math \
+  --strip_existing_ocr \
+  --paginate_output
+
+
+CUDA_VISIBLE_DEVICES=1 TORCH_DEVICE=cuda marker "作为意志和表象的世界" \
+  --output_dir "./作为意志和表象的世界/out" \
+  --force_ocr \
+  --redo_inline_math \
+  --strip_existing_ocr \
+  --paginate_output
+
